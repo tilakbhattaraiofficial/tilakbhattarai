@@ -1,0 +1,416 @@
+
+ *{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    /* border:1px solid red; */
+    
+} 
+
+@font-face{
+    font-family:font;
+    src:url('Gobold%20CUTS.otf');
+}
+/* @keyframes back{
+    0%{background-color:white;}
+    50%{background-color:rgba(224, 219, 219, 0.424);}
+    100%{background-color:whitesmoke;}
+    50%{background-color:rgba(224, 219, 219, 0.424);}
+    0%{background-color:white;}
+} */
+
+
+body{
+    width:100%;
+    background-color:rgba(224, 219, 219, 0.424);
+    /* animation-name:back;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-delay:2s;
+    animation-timing-function:ease-out; */
+} 
+
+
+.container{
+    width:100%;
+
+
+    
+}
+
+/* nav bar start */
+
+.header{
+    background-color: rgba(29, 28, 28, 0.972);
+    /* padding:10px; */
+    /* padding-top: 5px;  */
+    /* margin-top:1px; */
+    height:13vh;
+    /* background-position:center; */
+     background-size:cover; 
+     z-index:999;
+    /* max-width:100%; */
+    filter:drop-shadow(1px 1px 2px whitesmoke) drop-shadow(-1px 1px 2px wheat);
+    /* overflow:auto; */
+    
+
+   
+    
+   
+    
+
+
+}
+
+.nav{
+   margin:0px 0px 40px 0px;
+   
+  
+
+}
+.btn{
+    /* padding:1px; */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    /* margin:5px; */
+    position:relative;
+    top:3px;
+
+
+   
+   
+}
+.link{
+    
+    border-radius:7px;
+    padding:12px 20px;
+    margin:7px;
+    font-family:font;
+    color:blanchedalmond;
+    text-decoration: none;
+    /* filter:drop-shadow(5px 5px 5px rgba(39, 36, 36, 0.938)); */
+    /* background-color:rgba(29, 28, 28, 0.972); */
+    position:relative;
+    top:2px;
+
+    
+}
+
+.link:hover{
+    color:white;
+    /* background-color:rgba(29, 28, 28, 0.972); */
+    filter:drop-shadow(5px 5px 5px rgba(39, 36, 36, 0.938));
+    text-transform:uppercase;
+    transform:scale(1.1);
+
+}
+#abt:link{
+    color:white;
+    background-color:rgba(29, 28, 28, 0.972);
+    filter:drop-shadow(5px 5px 5px rgba(39, 36, 36, 0.938));
+    text-transform:uppercase;
+}
+
+/* main content start */
+.main{
+    margin:55px 50px 25px 50px;
+    background-color:rgba(29, 28, 28, 0.972) ;
+    height:100%;
+    border-radius:20px 2px;
+    filter:drop-shadow(3px 2px 3px rgb(46, 41, 41));
+    /* float:none; */
+    overflow:auto;
+    
+   
+
+}
+#htxt{
+    font-family:font;
+    font-size:2em;
+    color:wheat;
+    margin:10px 20px;
+    padding:5px 10px;
+    text-align:center;
+    filter:drop-shadow(3px 2px 3px rgba(48, 45, 45, 0.904));
+}
+#ptxt{
+    font-family:font;
+     font-size:1em;
+      color:wheat;
+    margin:20px 20px;
+    padding:9px 10px;
+    text-align:bottom;
+     filter:drop-shadow(3px 2px 3px rgba(48, 45, 45, 0.904)); 
+
+    
+}
+
+ #photo{
+    display:flex;
+    justify-content:center; 
+  
+   
+    
+   
+}
+
+#image{
+    
+    margin:20px 0px;
+    height:10em;
+    border-radius:47%;
+    border:7px solid rgba(119, 117, 117, 0.719);
+    filter:drop-shadow(3px 3px 7px rgba(117, 115, 115, 0.904)) blur(3px) grayscale(100%);
+   
+
+
+}
+
+#chatak{
+    display:FLEX;
+}
+
+
+
+
+
+
+
+
+@keyframes changecolor{
+    0%{color:wheat;}
+    50%{color:rgb(224, 219, 219);}
+    100%{color:whitesmoke;}
+    50%{color:rgb(224, 219, 219);}
+    0%{color:wheat;}
+}
+
+
+.txt{
+    animation-name:changecolor;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-delay:2s;
+    animation-timing-function:ease-out;
+    
+}
+
+
+
+
+
+
+
+/* footer start */
+
+
+#contact{
+   
+
+     margin:80px 20px 25px 20px;
+     padding:10px;
+
+}
+#personal{
+    font-family:font;
+      
+     font-size:15px;
+      color:rgba(37, 37, 37, 0.850);
+    margin:20px 90px;
+    padding:9px 10px;
+    text-align:center;
+     filter:drop-shadow(3px 2px 3px rgba(48, 45, 45, 0.450)); 
+
+}
+
+.logo{
+    width:100%;
+    display:flex;
+    justify-content:center; 
+   ;
+  
+
+}
+
+.awesome{
+    padding:10px;
+  
+}
+
+#fb{
+   
+
+
+   
+    color:rgba(29, 28, 28, 0.972);
+    font-size:40px;
+    
+    
+}
+
+#email{
+   
+   
+    
+    color:rgba(29, 28, 28, 0.972);
+    font-size:40px;
+
+}
+ 
+.foot{
+    margin-top:70px;
+     /* background-color:rgba(29, 28, 28, 0.972) ;  */
+    height:15vh;
+     width:100%;
+     background-size:cover;
+     margin-bottom:0px;
+     padding:0px;
+     
+   
+
+}
+
+.awesome:hover{
+    transform: scale(1.1);
+    
+}
+
+#copyright{
+   
+    margin:25px 30px;
+    padding:10px 15px;
+    color:black;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:769px){
+    .header{
+        width:100%;
+
+    }
+    .btn{
+        padding:10px 10px;
+        
+        position:relative;
+        top:-3px;
+        justify-content: center;
+
+        
+    
+        height:14vh;
+        /* background-color:wheat; */
+        
+      
+    }
+    .nav{
+        position:relative;
+        top:-4px;
+
+
+       
+    }
+
+    .main{
+        
+        height:90vh;
+        margin:50px 110px 20px 110px;
+        
+        
+    }
+
+    /* .txt{
+        margin:15px;
+        padding:5px;
+     
+
+    } */
+      #ptxt{
+        display:inline-block;
+        justify-content:center;
+        padding:10px;
+        text-align:center;
+        font-size:17px;
+        margin-left: 30px;
+      
+       
+       
+    }   
+/* 
+    #chatak{
+        position:relative;
+        bottom:120px;
+        left:30px;
+    } */
+    #htxt{
+        margin:15px;
+       
+        font-size:4em;
+        padding:40px 15px 15px 15px;
+        text-align:top;
+    }
+ 
+    #photo{
+        float:left;
+       margin-left:50px;
+   
+        
+       
+    } 
+
+
+    #image{
+        height:20em;
+      
+    }
+    
+    #personal{
+        font-size:20px;
+    }
+  
+}
+/* 
+@media screen and (min-width:1131px){
+
+    #ptxt{
+        display:FLEX;
+        padding:10px;
+        text-align:right;
+        font-size:17px;
+        justify-content: right;
+       
+       
+    } 
+
+    #chatak{
+        position:relative;
+        bottom:120px;
+        left:30px;
+    }
+
+    #photo{
+        display:inline-block;
+        justify-content:left;
+        margin-left:50px;
+        padding-left:10px;
+        width:fit-content;
+        
+       
+    }
+
+
+} */
+ 

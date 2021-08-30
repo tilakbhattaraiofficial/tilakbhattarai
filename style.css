@@ -1,0 +1,268 @@
+ 
+ *{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    /* border:1px solid red; */
+    
+} 
+
+@font-face{
+    font-family:font;
+    src:url('Gobold%20CUTS.otf');
+}
+/* @keyframes back{
+    0%{background-color:white;}
+    50%{background-color:rgba(224, 219, 219, 0.424);}
+    100%{background-color:whitesmoke;}
+    50%{background-color:rgba(224, 219, 219, 0.424);}
+    0%{background-color:white;}
+} */
+
+
+body{
+    width:100%;
+    background-color:rgba(224, 219, 219, 0.424);
+    /* animation-name:back;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-delay:2s;
+    animation-timing-function:ease-out; */
+} 
+.container{
+    width:100%;
+
+
+    
+}
+
+/* nav bar start */
+
+.header{
+    background-color: rgba(29, 28, 28, 0.972);
+    /* padding:10px; */
+    /* padding-top: 5px;  */
+    /* margin-top:1px; */
+    height:13vh;
+    /* background-position:center; */
+     background-size:cover; 
+     z-index:999;
+    /* max-width:100%; */
+    filter:drop-shadow(1px 1px 2px whitesmoke) drop-shadow(-1px 1px 2px wheat);
+    
+
+   
+    
+   
+    
+
+
+}
+
+.nav{
+   margin:0px 0px 40px 0px;
+   
+  
+
+}
+.btn{
+    /* padding:1px; */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    /* margin:5px; */
+    position:relative;
+    top:3px;
+
+
+   
+   
+}
+.link{
+    
+    border-radius:7px;
+    padding:12px 20px;
+    margin:7px;
+    font-family:font;
+    color:blanchedalmond;
+    text-decoration: none;
+    /* filter:drop-shadow(5px 5px 5px rgba(39, 36, 36, 0.938)); */
+    /* background-color:rgba(29, 28, 28, 0.972); */
+    position:relative;
+    top:2px;
+
+    
+}
+
+.link:hover{
+    color:white;
+    /* background-color:rgba(29, 28, 28, 0.972); */
+    filter:drop-shadow(5px 5px 5px rgba(39, 36, 36, 0.938));
+    text-transform:uppercase;
+    transform:scale(1.1);
+
+}
+/* #hom:link{
+    color:white;
+    background-color:rgba(29, 28, 28, 0.972);
+    filter:drop-shadow(5px 5px 5px rgba(39, 36, 36, 0.938));
+    text-transform:uppercase;
+
+} */
+
+/* main content start */
+.main{
+    margin:55px 50px 25px 50px;
+    background-color:rgba(29, 28, 28, 0.972) ;
+    height:100%;
+    border-radius:20px 2px;
+    filter:drop-shadow(3px 2px 3px rgb(46, 41, 41));
+    float:none;
+    overflow:auto;
+    
+   
+
+}
+#htxt{
+    font-family:font;
+    font-size:2em;
+    color:wheat;
+    margin:10px 20px;
+    padding:5px 10px;
+    text-align:center;
+    filter:drop-shadow(3px 2px 3px rgba(48, 45, 45, 0.904));
+}
+#ptxt{
+    font-family:font;
+    font-size:2em;
+    color:wheat;
+    margin:40px 20px;
+    padding:9px 10px;
+    text-align:center;
+    filter:drop-shadow(3px 2px 3px rgba(48, 45, 45, 0.904));
+
+    
+}
+
+@keyframes changecolor{
+    0%{color:wheat;}
+    50%{color:rgb(224, 219, 219);}
+    100%{color:whitesmoke;}
+    50%{color:rgb(224, 219, 219);}
+    0%{color:wheat;}
+}
+
+
+.txt{
+    animation-name:changecolor;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-delay:2s;
+    animation-timing-function:ease-out;
+    
+
+   
+
+}
+
+/* footer start */
+
+ 
+.foot{
+    margin-top:55px;
+     /* background-color:rgba(29, 28, 28, 0.972) ;  */
+    height:15vh;
+     width:100%;
+     background-size:cover;
+     margin-bottom:0px;
+     padding:0px;
+     
+   
+
+}
+
+#copyright{
+   
+    margin:200px 30px;
+    padding:10px 15px;
+    color:black;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:769px){
+    .header{
+        width:100%;
+
+    }
+    .btn{
+        padding:10px 10px;
+        
+        position:relative;
+        top:-3px;
+        justify-content: center;
+
+        
+    
+        height:14vh;
+        /* background-color:wheat; */
+        
+      
+    }
+    .nav{
+        position:relative;
+        top:-4px;
+
+
+       
+    }
+
+    .main{
+        height:100%;
+        margin:50px 100px 20px 100px;
+    }
+
+    .txt{
+        margin:15px;
+        padding:5px;
+     
+
+    }
+    #ptxt{
+        margin:20px;
+        padding:80px;
+        text-align:bottom;
+    }
+    #htxt{
+        font-size:4em;
+        padding:40px 15px 15px 15px;
+        text-align:top;
+    }
+
+    }
+
+   
+  
+
+    
+  
+
+ 
+
+
+
+
+
+
