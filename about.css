@@ -121,7 +121,7 @@ body{
     border-radius:20px 2px;
     filter:drop-shadow(3px 2px 3px rgb(46, 41, 41));
     /* float:none; */
-    overflow:visible;
+    overflow:auto;
     
    
 
